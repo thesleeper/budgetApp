@@ -133,11 +133,11 @@ export default function App() {
 
       <header className="App-header">
         <Nav />
-        <ExpenseInput saveExpense={saveExpense} />
-        <ExpenseList expenses={expenses} deleteExpense={deleteExpense} />
+        <button onClick={clearLocalStorage}>CLEAR LOCALSTORAGE</button>
+        {/* <ExpenseInput saveExpense={saveExpense} />
+        <ExpenseList expenses={expenses} deleteExpense={deleteExpense} /> */}
       </header>
 
-      <button onClick={clearLocalStorage}>CLEAR LOCALSTORAGE</button>
 
       {/* <label className="switch">
         <input type="checkbox" />
